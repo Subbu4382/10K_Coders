@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body style="text-align: center; font-size: 30px; background-color: blue;">
+  <h1>Facebook signup</h1>
+    <form action="/signup" method="post">
+  <input type="text" name="firstname" placeholder="First name" required> <br>
+  <input type="text" name="lastname" placeholder="Last name" required> <br>
+  
+  <input type="email" name="email" placeholder="Mobile number or email" required><br>
+  <input type="password" name="password" placeholder="New password" required><br>
+
+  <label>Date of Birth:</label><br>
+  <select name="day"><option value="1">1</option>...<option value="31"></option></select>
+  <select name="month"><option value="1">Jan</option>...<option value="12"></option></select>
+  <select name="year"><option value="2000">2000</option>...<option value="2025"></option></select> <br>
+
+  <label>Gender:</label>
+  <input type="radio" name="gender" value="male"> Male
+  <input type="radio" name="gender" value="female"> Female
+  <input type="radio" name="gender" value="custom"> Custom <br>
+
+  <button type="submit">Sign Up</button>
+</form>
+
+</body>
+</html>

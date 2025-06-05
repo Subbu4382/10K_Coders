@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML Full Tags Example">
+    <meta name="author" content="Subrahmanyam">
+    <title>All HTML Tags Example</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px;background-color: bisque; }
+        section { margin-bottom: 30px; }
+        table, th, td { border: 1px solid black; border-collapse: collapse; padding: 8px; }
+        header, footer, nav, article, aside, main { padding: 10px; border: 1px solid gray; margin-bottom: 10px; }
+        
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>All HTML Tags</h1>
+        <nav>
+            <a href="#">Home</a> | 
+            <a href="#">About</a> | 
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Text Formatting Tags</h2>
+            <p>This is a <b>bold</b>, <strong>strong</strong>, <i>italic</i>, <em>emphasized</em> and <u>underlined</u> text.</p>
+            <p><mark>Highlighted</mark> text, <small>small</small> text, <del>deleted</del> text, and <ins>inserted</ins> text.</p>
+            <p>X<sup>2</sup> and H<sub>2</sub>O are examples of <code>sup</code> and <code>sub</code>.</p>
+            <abbr title="HyperText Markup Language">HTML</abbr> is a markup language.
+            <address>Written by Subbu, Kakinada, AP.</address>
+        </section>
+
+        <section>
+            <h2>Lists</h2>
+            <h3>Ordered List</h3>
+            <ol>
+                <li>First</li>
+                <li>Second</li>
+                <li>Third</li>
+            </ol>
+
+            <h3>Unordered List</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+
+            <h3>Description List</h3>
+            <dl>
+                <dt>HTML</dt>
+                <dd>Standard markup language</dd>
+                <dt>CSS</dt>
+                <dd>Styling language</dd>
+            </dl>
+        </section>
+
+        <section>
+            <h2>Links and Images</h2>
+            <a href="https://www.google.com" target="_blank">Visit Google</a><br>
+            <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+        </section>
+
+        <section>
+            <h2>Multimedia</h2>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio><br>
+            <video width="320" height="240" controls>
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section>
+            <h2>Forms</h2>
+            <form action="#">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                
+                <label>Gender:</label>
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female<br><br>
+                
+                <label>Skills:</label>
+                <input type="checkbox" name="skills" value="HTML"> HTML
+                <input type="checkbox" name="skills" value="CSS"> CSS<br><br>
+                
+                <label for="language">Language:</label>
+                <select id="language">
+                    <option value="en">English</option>
+                    <option value="te">Telugu</option>
+                </select><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" rows="4" cols="30"></textarea><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+        <section>
+            <h2>Table</h2>
+            <table>
+                <caption>Student Scores</caption>
+                <tr>
+                    <th>Name</th>
+                    <th>Subject</th>
+                    <th>Marks</th>
+                </tr>
+                <tr>
+                    <td>Subbu</td>
+                    <td>HTML</td>
+                    <td>95</td>
+                </tr>
+                <tr>
+                    <td>Indu</td>
+                    <td>CSS</td>
+                    <td>92</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>Semantic Tags</h2>
+            <article>
+                <h3>Article Title</h3>
+                <p>This is an article section.</p>
+            </article>
+            <aside>
+                <p>This is an aside note or sidebar.</p>
+            </aside>
+            <figure>
+                <img src="https://via.placeholder.com/100" alt="Sample">
+                <figcaption>Figure caption text</figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h2>Other Tags</h2>
+            <details>
+                <summary>Click to see more</summary>
+                <p>This is hidden text shown when clicked.</p>
+            </details>
+            <progress value="70" max="100"></progress><br>
+            <meter value="0.6">60%</meter>
+            <br>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Subbu. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

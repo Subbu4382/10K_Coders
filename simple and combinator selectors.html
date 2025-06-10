@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors</title>
+    <style>
+        .parent{
+            background-color: aqua;
+            font-size: 40px;
+        }
+        body{
+            background-color: bisque;
+        }
+        .main>.parent+h2{
+            background-color: blueviolet;
+
+        }
+        .child3{
+            background-color: cadetblue;
+        }
+        .child2{
+            background-color: chocolate;
+        }
+        #hi{
+            background-color: darkolivegreen;
+        }
+        *{
+            font-family:sans-serif;
+            text-align: center;
+        }
+        #hello{
+            background-color: cornflowerblue;
+        }
+        #actor{
+            background-color: deeppink;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <h1 class="parent">Simple and Combinators selectors</h1>
+        <h2 class="child1">Allu Arjun</h2>
+        <p>"Stylish Star" for his energetic performances and unique dance moves in Telugu cinema, particularly in action
+            and romantic roles.</p>
+        <h2 class="child2">Mrunal Thakur</h2>
+        <p> An Indian actress who has successfully transitioned from television to starring roles in both Hindi and
+            Telugu films, often praised for her nuanced performances.</p>
+        <h2 id="actor">Deepika Padukone</h2>
+        <p class="child3">One of India's highest-paid actresses, recognized for her versatile acting and commanding presence in a wide
+            range of commercially successful and critically acclaimed Hindi films.</p>
+        <h2 id="hi">Janhvi Kapoor</h2>
+        <p>An emerging talent in Bollywood, she has quickly made her mark with her spirited performances and fashion
+            sense, following in the footsteps of her legendary mother.</p>
+        <h2 id="hello">Bhagyashree Borse</h2>
+        <p>A budding Indian actress primarily active in the Marathi film industry, gaining recognition for her fresh
+            face and promising acting skills.</p>
+    </div>
+</body>
+
+</html>
